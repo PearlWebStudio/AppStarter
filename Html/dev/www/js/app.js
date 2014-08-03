@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('teasify', [
+angular.module('starter', [
   'ionic',
   'firebase',
   'teasify.services',
@@ -95,7 +95,7 @@ angular.module('teasify', [
       });
     });
   })
-  .constant('FIREBASE_ROOT', 'https://teasify.firebaseio.com');
+  .constant('FIREBASE_ROOT', 'https://FIREBASE_APP_NAME.firebaseio.com');
 
 var srvs = angular.module('teasify.services', []);
 var drct = angular.module('teasify.directives', []);
